@@ -28,11 +28,19 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+h1,h2,h3,h4,h5,h6,p{
+  text-align: center;
+  padding-top: 1Opx;
+  margin-top: 1Opx;
+}
+
+button{
+  color:blue;
+  /* border-radius: 5px;
+  background-color: grey;
+  height: 30px;
+  width: 150px; */
+  /* margin-left: 900px; */
+
 }
