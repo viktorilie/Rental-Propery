@@ -1,3 +1,5 @@
+import "./PropertyList.css";
+
 function Property({ name, price, rating, id }) {
   return (
     <div>

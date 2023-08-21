@@ -1,5 +1,5 @@
 import "./App.css";
-import Property from "./Property";
+import PropertyList from "./PropertyList";
 
 const properties = [
   { id: 129031, name: "Krushevo", rating: 4.6, price: 110 },
@@ -12,7 +12,7 @@ const properties = [
 function App() {
   return (
     <div>
-      <Property properties={properties} />
+      <PropertyList properties={properties} />
     </div>
   );
 }
